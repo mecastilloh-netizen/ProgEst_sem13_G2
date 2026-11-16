@@ -1,0 +1,1161 @@
+[
+  {
+    "entrada": {
+      "tipo": "pila",
+      "accion": "agregar",
+      "valor": "Escribir",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [],
+        "cola": [],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "pila",
+      "accion": "agregar",
+      "valor": "Insertar",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [],
+        "cola": [],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [],
+        "pila": [
+          "Escribir",
+          "Insertar"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "pila",
+      "accion": "agregar",
+      "valor": "Guardar",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [],
+        "cola": [],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [],
+        "pila": [
+          "Escribir",
+          "Insertar",
+          "Guardar"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "pila",
+      "accion": "extraer",
+      "valor": "",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [],
+        "cola": [],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [],
+        "pila": [
+          "Escribir",
+          "Insertar"
+        ]
+      },
+      "mensaje": "Salió: Guardar"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "pila",
+      "accion": "extraer",
+      "valor": "",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [],
+        "cola": [],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Salió: Insertar"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "cola",
+      "accion": "agregar",
+      "valor": "Ana",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [],
+        "cola": [
+          "Ana"
+        ],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "cola",
+      "accion": "agregar",
+      "valor": "Luis",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [],
+        "cola": [
+          "Ana",
+          "Luis"
+        ],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "cola",
+      "accion": "agregar",
+      "valor": "Marta",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [],
+        "cola": [
+          "Ana",
+          "Luis",
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "cola",
+      "accion": "atender",
+      "valor": "",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [],
+        "cola": [
+          "Luis",
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Atendido: Ana"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "cola",
+      "accion": "atender",
+      "valor": "",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [],
+        "cola": [
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Atendido: Luis"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "lista",
+      "accion": "agregar",
+      "valor": "E01",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [],
+        "cola": [
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [
+          "E01"
+        ],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "lista",
+      "accion": "agregar",
+      "valor": "E02",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [],
+        "cola": [
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [
+          "E01",
+          "E02"
+        ],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "lista",
+      "accion": "agregar",
+      "valor": "E03",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [],
+        "cola": [
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [
+          "E01",
+          "E02",
+          "E03"
+        ],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "lista",
+      "accion": "eliminar",
+      "valor": "E02",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [],
+        "cola": [
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [
+          "E01",
+          "E03"
+        ],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "lista",
+      "accion": "buscar",
+      "valor": "E03",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [],
+        "cola": [
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [
+          "E01",
+          "E03"
+        ],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Encontrado: E03 en el índice 1 (desde 0)"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "arbol",
+      "accion": "agregar",
+      "valor": "Facultad",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [
+          {
+            "nombre": "Facultad",
+            "padre": null
+          }
+        ],
+        "cola": [
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [
+          "E01",
+          "E03"
+        ],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "arbol",
+      "accion": "agregar",
+      "valor": "Sistemas",
+      "otro": "Facultad"
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [
+          {
+            "nombre": "Facultad",
+            "padre": null
+          },
+          {
+            "nombre": "Sistemas",
+            "padre": "Facultad"
+          }
+        ],
+        "cola": [
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [
+          "E01",
+          "E03"
+        ],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "arbol",
+      "accion": "agregar",
+      "valor": "Industrial",
+      "otro": "Facultad"
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [
+          {
+            "nombre": "Facultad",
+            "padre": null
+          },
+          {
+            "nombre": "Sistemas",
+            "padre": "Facultad"
+          },
+          {
+            "nombre": "Industrial",
+            "padre": "Facultad"
+          }
+        ],
+        "cola": [
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [
+          "E01",
+          "E03"
+        ],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "grafo",
+      "accion": "agregar",
+      "valor": "A",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [
+          {
+            "nombre": "Facultad",
+            "padre": null
+          },
+          {
+            "nombre": "Sistemas",
+            "padre": "Facultad"
+          },
+          {
+            "nombre": "Industrial",
+            "padre": "Facultad"
+          }
+        ],
+        "cola": [
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [],
+          "vertices": [
+            "A"
+          ]
+        },
+        "lista": [
+          "E01",
+          "E03"
+        ],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "grafo",
+      "accion": "agregar",
+      "valor": "B",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [
+          {
+            "nombre": "Facultad",
+            "padre": null
+          },
+          {
+            "nombre": "Sistemas",
+            "padre": "Facultad"
+          },
+          {
+            "nombre": "Industrial",
+            "padre": "Facultad"
+          }
+        ],
+        "cola": [
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [],
+          "vertices": [
+            "A",
+            "B"
+          ]
+        },
+        "lista": [
+          "E01",
+          "E03"
+        ],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "grafo",
+      "accion": "agregar",
+      "valor": "C",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [
+          {
+            "nombre": "Facultad",
+            "padre": null
+          },
+          {
+            "nombre": "Sistemas",
+            "padre": "Facultad"
+          },
+          {
+            "nombre": "Industrial",
+            "padre": "Facultad"
+          }
+        ],
+        "cola": [
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [],
+          "vertices": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "lista": [
+          "E01",
+          "E03"
+        ],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "grafo",
+      "accion": "conectar",
+      "valor": "A",
+      "otro": "B"
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [
+          {
+            "nombre": "Facultad",
+            "padre": null
+          },
+          {
+            "nombre": "Sistemas",
+            "padre": "Facultad"
+          },
+          {
+            "nombre": "Industrial",
+            "padre": "Facultad"
+          }
+        ],
+        "cola": [
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [
+            [
+              "A",
+              "B"
+            ]
+          ],
+          "vertices": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "lista": [
+          "E01",
+          "E03"
+        ],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "grafo",
+      "accion": "conectar",
+      "valor": "B",
+      "otro": "C"
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [
+          {
+            "nombre": "Facultad",
+            "padre": null
+          },
+          {
+            "nombre": "Sistemas",
+            "padre": "Facultad"
+          },
+          {
+            "nombre": "Industrial",
+            "padre": "Facultad"
+          }
+        ],
+        "cola": [
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [
+            [
+              "A",
+              "B"
+            ],
+            [
+              "B",
+              "C"
+            ]
+          ],
+          "vertices": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "lista": [
+          "E01",
+          "E03"
+        ],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "grafo",
+      "accion": "conectar",
+      "valor": "B",
+      "otro": "A"
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [
+          {
+            "nombre": "Facultad",
+            "padre": null
+          },
+          {
+            "nombre": "Sistemas",
+            "padre": "Facultad"
+          },
+          {
+            "nombre": "Industrial",
+            "padre": "Facultad"
+          }
+        ],
+        "cola": [
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [
+            [
+              "A",
+              "B"
+            ],
+            [
+              "B",
+              "C"
+            ]
+          ],
+          "vertices": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "lista": [
+          "E01",
+          "E03"
+        ],
+        "pila": [
+          "Escribir"
+        ]
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "pila",
+      "accion": "reiniciar",
+      "valor": "",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [
+          {
+            "nombre": "Facultad",
+            "padre": null
+          },
+          {
+            "nombre": "Sistemas",
+            "padre": "Facultad"
+          },
+          {
+            "nombre": "Industrial",
+            "padre": "Facultad"
+          }
+        ],
+        "cola": [
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [
+            [
+              "A",
+              "B"
+            ],
+            [
+              "B",
+              "C"
+            ]
+          ],
+          "vertices": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "lista": [
+          "E01",
+          "E03"
+        ],
+        "pila": []
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "pila",
+      "accion": "extraer",
+      "valor": "",
+      "otro": ""
+    },
+    "codigo": 400,
+    "respuesta": {
+      "error": "Pila vacía"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "lista",
+      "accion": "eliminar",
+      "valor": "E99",
+      "otro": ""
+    },
+    "codigo": 404,
+    "respuesta": {
+      "error": "No encontrado"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "lista",
+      "accion": "buscar",
+      "valor": "E99",
+      "otro": ""
+    },
+    "codigo": 404,
+    "respuesta": {
+      "error": "No encontrado"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "grafo",
+      "accion": "conectar",
+      "valor": "A",
+      "otro": "Z"
+    },
+    "codigo": 400,
+    "respuesta": {
+      "error": "Primero crea ambos vértices"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "arbol",
+      "accion": "agregar",
+      "valor": "Civil",
+      "otro": "Desconocido"
+    },
+    "codigo": 400,
+    "respuesta": {
+      "error": "El padre debe existir"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "grafo",
+      "accion": "conectar",
+      "valor": "A",
+      "otro": "A"
+    },
+    "codigo": 400,
+    "respuesta": {
+      "error": "Usa vértices distintos"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "arbol",
+      "accion": "agregar",
+      "valor": "Facultad",
+      "otro": ""
+    },
+    "codigo": 400,
+    "respuesta": {
+      "error": "Nodo duplicado"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "pila",
+      "accion": "reiniciar",
+      "valor": "",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [
+          {
+            "nombre": "Facultad",
+            "padre": null
+          },
+          {
+            "nombre": "Sistemas",
+            "padre": "Facultad"
+          },
+          {
+            "nombre": "Industrial",
+            "padre": "Facultad"
+          }
+        ],
+        "cola": [
+          "Marta"
+        ],
+        "grafo": {
+          "aristas": [
+            [
+              "A",
+              "B"
+            ],
+            [
+              "B",
+              "C"
+            ]
+          ],
+          "vertices": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "lista": [
+          "E01",
+          "E03"
+        ],
+        "pila": []
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "cola",
+      "accion": "reiniciar",
+      "valor": "",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [
+          {
+            "nombre": "Facultad",
+            "padre": null
+          },
+          {
+            "nombre": "Sistemas",
+            "padre": "Facultad"
+          },
+          {
+            "nombre": "Industrial",
+            "padre": "Facultad"
+          }
+        ],
+        "cola": [],
+        "grafo": {
+          "aristas": [
+            [
+              "A",
+              "B"
+            ],
+            [
+              "B",
+              "C"
+            ]
+          ],
+          "vertices": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "lista": [
+          "E01",
+          "E03"
+        ],
+        "pila": []
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "lista",
+      "accion": "reiniciar",
+      "valor": "",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [
+          {
+            "nombre": "Facultad",
+            "padre": null
+          },
+          {
+            "nombre": "Sistemas",
+            "padre": "Facultad"
+          },
+          {
+            "nombre": "Industrial",
+            "padre": "Facultad"
+          }
+        ],
+        "cola": [],
+        "grafo": {
+          "aristas": [
+            [
+              "A",
+              "B"
+            ],
+            [
+              "B",
+              "C"
+            ]
+          ],
+          "vertices": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "lista": [],
+        "pila": []
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "arbol",
+      "accion": "reiniciar",
+      "valor": "",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [],
+        "cola": [],
+        "grafo": {
+          "aristas": [
+            [
+              "A",
+              "B"
+            ],
+            [
+              "B",
+              "C"
+            ]
+          ],
+          "vertices": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "lista": [],
+        "pila": []
+      },
+      "mensaje": "Operación realizada"
+    }
+  },
+  {
+    "entrada": {
+      "tipo": "grafo",
+      "accion": "reiniciar",
+      "valor": "",
+      "otro": ""
+    },
+    "codigo": 200,
+    "respuesta": {
+      "estado": {
+        "arbol": [],
+        "cola": [],
+        "grafo": {
+          "aristas": [],
+          "vertices": []
+        },
+        "lista": [],
+        "pila": []
+      },
+      "mensaje": "Operación realizada"
+    }
+  }
+]
